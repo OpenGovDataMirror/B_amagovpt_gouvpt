@@ -1,0 +1,250 @@
+# Portuguese translations for gouvpt.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the gouvpt project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gouvpt 0.5.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-03-07 16:57+0000\n"
+"PO-Revision-Date: 2018-02-22 12:54+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: gouvpt/theme/__init__.py:20
+msgid "Documentation"
+msgstr "Documentação"
+
+#: gouvpt/theme/__init__.py:21
+msgid "About Open Data"
+msgstr "Sobre dados abertos"
+
+#: gouvpt/theme/__init__.py:22
+msgid "About Dados.gov"
+msgstr "Sobre o dados.gov"
+
+#: gouvpt/theme/__init__.py:23 gouvpt/theme/templates/footer.html:59
+msgid "Publish data"
+msgstr "Publicar dados"
+
+#: gouvpt/theme/__init__.py:24
+msgid "Reuse data"
+msgstr "Reutilizar dados"
+
+#: gouvpt/theme/__init__.py:28
+msgid "Open Data"
+msgstr "Dados Abertos"
+
+#: gouvpt/theme/__init__.py:37
+msgid "Events"
+msgstr "Eventos"
+
+#: gouvpt/theme/templates/footer.html:56
+msgid "Terms of use"
+msgstr "Termos de utilização"
+
+#: gouvpt/theme/templates/header.html:26
+#: gouvpt/theme/templates/sections/subnav-small.html:39
+#: gouvpt/theme/templates/sections/subnav-small.html:42
+msgid "Contribute!"
+msgstr "Contribuir!"
+
+#: gouvpt/theme/templates/header.html:59
+msgid "Administration"
+msgstr "Administração"
+
+#: gouvpt/theme/templates/header.html:65
+msgid "Logout"
+msgstr "Sair"
+
+#: gouvpt/theme/templates/header.html:75
+msgid "Sign In / Register"
+msgstr "Entrar / Registar"
+
+
+#: gouvpt/theme/templates/sections/posts-last.html:15
+msgid "News in data"
+msgstr "Novidades"
+
+#: gouvpt/theme/templates/sections/subnav-small.html:10
+#, fuzzy
+msgid "Search in datasets"
+msgstr "Perquisar em conjuntos de dados"
+
+#: gouvpt/theme/templates/sections/subnav-small.html:13
+msgid "Search in this "
+msgstr "Pesquisar aqui"
+
+#: gouvpt/theme/templates/custom/contact.html:18
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Submit"
+msgstr "Submeter"
+
+msgid "Thank you for your message. We'll get back to you shortly."
+msgstr "Obrigado pela sua mensagem. Vamos responder assim que possivel."
+
+msgid "The response parameter is missing."
+msgstr "Validação reCAPTCHA em falta."
+
+msgid "Edit this page"
+msgstr "Editar esta página"
+
+msgid "Credits"
+msgstr "Créditos"
+
+msgid "See data"
+msgstr "Ver dados"
+
+msgid "Export to {format}"
+msgstr "Exportar para {format}"
+
+msgid "I have read and accept <a href=\"%(url)s\" target=\"_blank\"> the terms and conditions of the service.</a>"
+msgstr "Li e aceito <a href=\"%(url)s\"> os termos e condições do serviço.</a>"
+
+msgid "Email/Password"
+msgstr "Email/Palavra-passe"
+
+msgid "World"
+msgstr "Mundo"
+
+msgid "European Union"
+msgstr "União Europeia"
+
+msgid "Country group"
+msgstr "Mundo"
+
+msgid "Country"
+msgstr "Países"
+
+msgid "District"
+msgstr "Distritos"
+
+msgid "County"
+msgstr "Concelhos"
+
+msgid "Parish"
+msgstr "Freguesias"
+
+msgid "INSEE code:"
+msgstr "Código Dicofre:"
+
+msgid "Use this form to get in touch with us in case of doubts or need of assistance. You can also contact us to request for additional datasets or info that you’d like to see available on this portal. To interact with data suppliers, i.e. ask for more data or specific improvements, use the \"Contact\" option on each dataset page, to start a new discussion thread."
+msgstr "Utilize este formulário para esclarecer dúvidas ou pedir assistência na utilização do dados.gov. Pode também efetuar sugestões sobre conjuntos de dados ou informação que gostaria de ver disponibilizada no portal. Para interagir com as entidades fornecedoras, solicitando mais dados ou melhorias específicas, por exemplo, utilize a funcionalidade de \"contacto\" disponível em cada dataset, para iniciar uma troca de comentários."
+
+#: gouvpt/theme/templates/custom/api.html:4
+msgid "API Documentation"
+msgstr "Documentação da API"
+
+#: gouvpt/theme/templates/custom/api.html:5
+#, python-format
+msgid "%(site)s dynamic API documentation"
+msgstr "Documentação da API do dados.gov"
+
+#: gouvpt/theme/templates/custom/api.html:39
+msgid "This page describe this website's free and open RESTful API's behavior"
+msgstr "Esta página descreve o comportamento da API do dados.gov."
+
+#: gouvpt/theme/templates/custom/api.html:43
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: gouvpt/theme/templates/custom/api.html:48
+msgid "In order to be able to execute write operations,"
+msgstr "Para que seja possível executar as operações de escrita,"
+
+#: gouvpt/theme/templates/custom/api.html:50
+#, python-format
+msgid "you first need to obtain an %(apikey)s in your profile settings."
+msgstr "precisa de obter primeiro uma %(apikey)s nas configurações do seu perfil."
+
+#: gouvpt/theme/templates/custom/api.html:54
+msgid "API Key"
+msgstr "Chave da API"
+
+#: gouvpt/theme/templates/custom/api.html:57
+msgid "you first need to authenticate and obtain an API Key in your profile settings."
+msgstr "precisa primeiro de se autenticar/registar e obter uma chave de API nas configurações do seu perfil. "
+
+#: gouvpt/theme/templates/custom/api.html:60
+msgid ""
+"This key should be provided on each call in the <code>X-API-KEY</code> HTTP "
+"header."
+msgstr "Esta chave deve ser fornecida em cada chamada à API no cabeçalho HTTP <code>X-API-KEY</code>."
+
+#: gouvpt/theme/templates/custom/api.html:64
+msgid "Authorizations"
+msgstr "Autorizações"
+
+#: gouvpt/theme/templates/custom/api.html:68
+msgid "API calls are subject to the same permissions than the web interface."
+msgstr "As chamadas à API estão sujeitas às mesmas permissões que a interface web (frontend)."
+
+#: gouvpt/theme/templates/custom/api.html:69
+msgid ""
+"By example, you need to be part of the organization to modify one of its "
+"datasets."
+msgstr "Por exemplo, é necessário pertencer a uma organização para modificar os seus conjuntos de dados."
+
+#: gouvpt/theme/templates/custom/api.html:73
+msgid "Pagination"
+msgstr "Paginação"
+
+#: gouvpt/theme/templates/custom/api.html:77
+msgid ""
+"Some method are paginated and always follow the same pattern.\n"
+"                        The object list is wrapped in a <code>Page</code> "
+"object.\n"
+"                        "
+msgstr "Alguns métodos são paginados e seguem sempre o mesmo padrão. A lista de objetos é encapsulada num objeto Page."
+
+#: gouvpt/theme/templates/custom/api.html:81
+msgid ""
+"You don't have to compute yourself the previous and next pages\n"
+"                        because the URLs are available in the response under "
+"the\n"
+"                        <code>previous_page</code> and <code>next_page</code>"
+" attributes.\n"
+"                        They will be set to <code>null</code> if there is no "
+"previous and/or next page."
+msgstr "Não é necessário calcular as páginas anterior e seguinte porque as URLs estão disponíveis na resposta sob os atributos previous_page e next_page. Estes serão definidos como null se não existir nenhuma página anterior ou seguinte."
+
+#: gouvpt/theme/templates/custom/api.html:86
+msgid "Example"
+msgstr "Exemplo"
+
+#: gouvpt/theme/templates/custom/api.html:99
+msgid "Reference"
+msgstr "Referência"
+
+#: gouvpt/theme/templates/dataset/display.html:121
+msgid "Analyse"
+msgstr "Analisar"
+
+#: gouvpt/theme/__init__.py:34
+msgid "Visualizations"
+msgstr "Visualizações"
+
+#: gouvpt/theme/__init__.py:33
+msgid "Data Analysis"
+msgstr "Análise de dados"
+
+#: udata.cfg
+msgid "Your username and password do not match."
+msgstr "As suas credênciais de acesso não coincidem."
+
+#: udata.cfg
+msgid "Instructions to reset your password have been sent."
+msgstr "Instruções para restaurar a sua password foram enviadas."
+
+#: udata.cfg
+msgid "Invalid credentials."
+msgstr "Credênciais inválidas."

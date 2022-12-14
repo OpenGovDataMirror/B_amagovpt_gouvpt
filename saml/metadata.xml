@@ -1,0 +1,16 @@
+<EntityDescriptor entityID="https://autenticacao.cartaodecidadao.pt" 
+    xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+    <IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <KeyInfo 
+                xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIEVjCCAz6gAwIBAgIGAWHCrFBWMA0GCSqGSIb3DQEBCwUAMHYxGDAWBgkqhkiG9w0BCQETCWl0QGFtYS5wdDELMAkGA1UEBhMCUFQxDzANBgNVBAcTBkxpc2JvYTEMMAoGA1UEChMDQU1BMQswCQYDVQQLEwJJVDEhMB8GA1UEAxMYc2FtbC5hdXRlbnRpY2FjYW8uZ292LnB0MB4XDTE4MDIyMzEyMzg0OFoXDTIyMDIyMzEyMzg0OFowejEYMBYGCSqGSIb3DQEJARMJaXRAYW1hLnB0MQswCQYDVQQGEwJQVDEPMA0GA1UEBxMGTGlzYm9hMQwwCgYDVQQKEwNBTUExCzAJBgNVBAsTAklUMSUwIwYDVQQDExxpZHAuc2FtbC5hdXRlbnRpY2FjYW8uZ292LnB0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuuMvk33yRE76aQNOdD9ystAdITW8sxuqkrDz4sD3bz6ogulYrnORtMOa6MKYnE/fzLZkBfuCFdb400fGzRkU0Vk9u4VGS8QcUQ04ThRKirFs/LUQv+qNtebo6l6BG655Ckq4uTq55kK8413SyRrVJCuwheW6bxzV2gJF7Eb3gXBAyHg2IzUUGMSC1251Epl9qDQg6CPDljkxBHtIGKKkFpArrAFwq94Bxbmd/Mgbg/CrxnvTgXLo0gxaGUHhvtWu9tooecNOrCjV6/aRXg8jPnwmpU2IAOHOdZ9ExtYVFMKRsthHqg0BS9pnf83WlIxij4yaZQ1lbEvMpNuS0Y0kJwIDAQABo4HlMIHiMIGiBgNVHSMEgZowgZeAFOtWM/4/Izs1fpPI1jnWW3HgSisnoXekdTBzMRgwFgYJKoZIhvcNAQkBEwlpdEBhbWEucHQxCzAJBgNVBAYTAlBUMQ8wDQYDVQQHEwZMaXNib2ExDDAKBgNVBAoTA0FNQTELMAkGA1UECxMCSVQxHjAcBgNVBAMTFUF1dGVudGljYWNhby5Hb3YgUmFpeoIGAWHCrFA3MB0GA1UdDgQWBBTDxw0HD1v7NnO/uoUKv+uBtsk+RjAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAW1THFTUTwyNJPmvNNKo1yIzGW82PYotMBSBtu6DlkMq2Kh+Leb94QhM9U3XqEdsgYwe7bcumHkkP2ScYym2V2Zgwu3mVgzfCsCdAEDm3Ii7hpHzmEIPTytgYidaHdIug0JBG/BzG6MsznNvxdJsy8jVVPrnaaBX2dxYt8JJX9IRvJSsA4pbSM1JyQkMdJk9af62MDi4TNSkAzmJohfWO8xH6AXu5CQ3fOyQIv9ee1w0gYieO0QBeLVxvZBjiRmWj/lGw4yMKxA/e4Mf9FDlS03XG+OeeVbILWwMKRDdsZ0d8MhGKiTA2LWjBQIL8KnmVbrSOg15aZSfTfQ/kTT0XVA==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://autenticacao.gov.pt/fa/"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://autenticacao.gov.pt/fa/"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://autenticacao.gov.pt/fa/"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>

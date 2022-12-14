@@ -1,0 +1,16 @@
+{
+    "application": "udata",
+    "identifier": "gouvpt",
+    "name": "gouvpt",
+    "author": "AMA.pt",
+    "description": "Official udata theme for the Open Data Portal of Portugal",
+    "website": "https://dados.gov.pt/",
+    "license": "AGPL",
+    "version": "2.7.1",
+    "doctype": "html5",
+    "social": {
+        "twitter": "https://twitter.com/ama_gov_pt",
+        "github": "https://github.com/amagovpt/",
+        "mail": "ama@ama.pt"
+    }
+}

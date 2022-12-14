@@ -1,0 +1,41 @@
+{% if banner_posts %}
+    {% set posts = banner_posts %}
+{% else %}
+    {% set posts = [last_post] %}
+{% endif %}
+{% cache cache_duration, 'posts-featured', g.lang_code %}
+<div class="initialTopBanner">
+    <!-- <div class="scrolldown">
+        <img alt="Ver Mais Scroll Image" src="{{ theme_static('images/scrolldown.png')}}" />
+    </div> -->
+    <ul id="homepage-slider" {%  if posts|length > 1 %} style="display:none;" {% endif %}>
+
+        {% for post in posts %}
+
+        <li>
+            <div class="img" style="background-image: url( {{ post.image|placeholder('post') }} )"></div>
+            <div class="black-home-overlay"></div>
+            <div class="text-area">
+                <h1>{{ post.name|mdstrip(40) }}</h1>
+                <h2>{{(post.headline or post.content)|mdstrip(55)}}</h2>
+                <div class="description">
+                    <br>
+                    <p> {{ post.content| truncate(700) | markdown }} </p>
+                    {% if "vernoticia" in post.tags %}
+                    <div class="verMaisHomeBtn">
+                            <a href="{{ post.display_url }}">{{_("See more")}}</a>
+                    </div>
+                    {% else %}
+                    <div class="verMaisHomeBtn">
+                            <a href="{{ url_for('datasets.list') }}">{{_("Ver dados")}}</a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </li>
+
+        {% endfor %}
+
+    </ul>
+</div>
+{% endcache %}

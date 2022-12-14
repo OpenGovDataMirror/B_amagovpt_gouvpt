@@ -1,0 +1,48 @@
+{% extends "home.html" %} 
+{% set body_class = 'homepage' %} 
+{% block content %}
+
+<div class="top-banner">
+	{% include theme("sections/posts-featured.html") %}
+</div>
+
+{{ notification_zone() }}
+
+<div class="block-wrapper-videos">
+	{% include theme("sections/video.html") %}
+</div>
+
+<div class="block-wrapper">
+	<section class="default">
+		<div class="container">
+			<div class="topics row">
+				<div class="col-md-12">
+				<h2 id="dadoswrapper" class="header_big topics">{{ _('Topics') }}</h2>
+				{% for topic in g.featured_topics %}
+					<span class="col-md-1 col-xs-2">
+						<a href="{{ url_for('topics.display', topic=topic) }}">
+							<img src="{{ theme_static('img/topics/') + topic.slug + ".svg" }}" alt="{{ topic }}"  title="Ver {{ topic }}">
+							<span class="hidden-xs">{{ topic }}</span>
+						</a>
+					</span>
+				{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="block-wrapper reuses">
+	{% include theme("sections/reuses-featured.html") %}
+</div>
+
+<div class="block-wrapper grey">
+		{% include theme("sections/posts-last.html") %}
+</div>
+
+<div class="block-wrapper">
+		{% include theme("sections/datasets-featured.html") %}
+</div>
+
+</div>
+{% endblock %}

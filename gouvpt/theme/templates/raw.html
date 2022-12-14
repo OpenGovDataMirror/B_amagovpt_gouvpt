@@ -1,0 +1,15 @@
+
+{% extends "raw.html" %}
+
+{% block raw_head %}
+{{ super() }}
+<link rel="shortcut icon" href="{{ theme_static('images/favicon.ico') }}">
+
+<script type="text/javascript" src="{{ theme_static('js/jquery-3.1.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ theme_static('js/jquery.bxslider.min.js') }}"></script>
+<script type="text/javascript" src="{{ theme_static('js/select2.full.min.js') }}"></script>
+<script type="text/javascript" src="{{ theme_static('js/main.js') }}"></script>
+{% block after_head %}{% endblock %}
+
+{% endblock %}
+
